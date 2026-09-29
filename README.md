@@ -36,21 +36,6 @@ NLPBot answers questions using personal NLP lecture materials and retrieves rele
 7. Pass retrieved context to the LLM
 8. Generate a context-based answer
 
-## Project Structure
-
-```text
-NLPBot/
-├── data/
-│   └── NLP lecture PDFs
-├── vectorstore/
-│   ├── index.faiss
-│   └── chunks.pkl
-├── app.py
-├── ingest.py
-├── rag.py
-├── prompt.py
-├── requirements.txt
-└── .gitignore
 ## Deployment
 
 The application is deployed using Streamlit Community Cloud.
@@ -67,3 +52,21 @@ https://hibabajwa-nlpbot-app-i32u00.streamlit.app/
 4. Add the `GROQ_API_KEY` as a Streamlit secret.
 5. Set `app.py` as the main file.
 6. Deploy the application.
+7. 
+## Project Structure
+
+```text
+NLPBot/
+├── data/
+│   └── NLP lecture PDFs
+├── vectorstore/
+│   ├── index.faiss
+│   └── chunks.pkl
+├── app.py
+├── ingest.py
+├── rag.py
+├── prompt.py
+├── requirements.txt
+└── .gitignore
+
+
