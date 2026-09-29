@@ -51,3 +51,19 @@ NLPBot/
 ├── prompt.py
 ├── requirements.txt
 └── .gitignore
+## Deployment
+
+The application is deployed using Streamlit Community Cloud.
+
+### Live Application
+
+https://hibabajwa-nlpbot-app-i32u00.streamlit.app/
+
+### Deployment Steps
+
+1. Upload the project to GitHub.
+2. Connect the GitHub repository to Streamlit Community Cloud.
+3. Set Python version to 3.12.
+4. Add the `GROQ_API_KEY` as a Streamlit secret.
+5. Set `app.py` as the main file.
+6. Deploy the application.
